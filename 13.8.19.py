@@ -8,7 +8,6 @@ for i in range(1, tickets + 1):
         price.append(1390)
     elif age >= 18 <= 25:
         price.append(990)
-        # print(price)
 
 if tickets > 3:
         print("Сумма с учетом скидки составляет ", ((sum(price) * 0.9)), "руб.")
